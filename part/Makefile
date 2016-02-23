@@ -10,7 +10,7 @@ INST_DIR           = /usr/sbin
 
 VHDPARTX           = vhdpartx
 
-CFLAGS            := -g -O0
+CFLAGS            += -g -O0
 CFLAGS            += -Werror -Wall
 CFLAGS            += -Wno-unused
 CFLAGS            += -I../include
